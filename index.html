@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230224200333">
+
+    <title>Головна</title>
+</head>
+    <body>
+        
+        <header class="header">
+    <div class="header__author author-header">
+        <div class="author-header__image">
+            <picture><source srcset="img/author-img/photo.webp" type="image/webp"><img src="img/author-img/photo.jpg" alt="me-photo"></picture>
+        </div>
+        <div class="author-header__name">
+            Hliebov Yevhenii
+        </div>
+    </div>
+    <nav class="header__menu menu">
+        <ul class="menu__body">
+            <li class="menu__item"><a href="#" data-scroll="#home" class="menu__link">Home</a></li>
+            <li class="menu__item"><a href="#" data-scroll="#about" class="menu__link">About Me</a></li>
+            <li class="menu__item"><a href="#" data-scroll="#resume" class="menu__link">Resume</a></li>
+            <!-- <li class="menu__item"><a href="#" class="menu__link">Reviews</a></li> -->
+            <li class="menu__item"><a href="#" data-scroll="#portfolio" class="menu__link">Portfolio</a></li>
+            <li class="menu__item"><a href="#" data-scroll="#contact" class="menu__link">Contact</a></li>
+        </ul>
+    </nav>
+    <div data-moveto="header__menu, last, 425, max" class="header__social-links social-links">
+        <a href="https://www.instagram.com/jekiniio/" class="social-links__link _icon-instagram"></a>
+        <a href="https://twitter.com/GlebovZena" class="social-links__link _icon-twitter"></a>
+        <a href="https://github.com/yevheniy-hliebov" class="social-links__link _icon-github"></a>
+    </div>
+    <button type="button" class="icon-burger"><span></span></button>
+</header>
+        <main class="main">
+            <section id="home" class="main__section home">
+                <div class="home__container">
+                    <div class="home__content">
+                        <p class="home__welcome">Welcome</p>
+                        <h2 class="home__title">I'm web developer.</h2>
+                        <p class="home__sub-title">based in Ukraine, Dnipro.</p>
+                        <button type="button" data-scroll="#contact" class="home__btn btn btn_border">Hire Me</button>
+                    </div>
+                    <a href="#" data-scroll="#about" class="home__scroll-down _icon-arrow"></a>
+                </div>
+            </section>
+            <section id="about" class="main__section about">
+                <div class="about__container">
+                    <div class="about__title-block title-block">
+                        <h2 class="title-block__title-back">About Me</h2>
+                        <p class="title-block__title-second">Know Me More</p>
+                    </div>
+                    <div class="about__info">
+                        <div class="about__text text">
+                            <h3 class="text__title content-title">
+                                I'm <span class="text-primery">Hliebov Yevhenii,</span> a Web Developer
+                            </h3>
+                            <div class="text__text">
+                                <p>
+                                    I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <p>
+                                    Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__short-info short-info">
+                            <ul class="short-info__list">
+                                <li class="short-info__item">
+                                    <span class="short-info__parametr">Name</span>
+                                    Hliebov Yevhenii
+                                </li>
+                                <li class="short-info__item">
+                                    <span class="short-info__parametr">Email</span>
+                                    <a href="mailto:yevheniy.hliebov@gmail.com" class="link-primary">yevheniy.hliebov@gmail.com</a>
+                                </li>
+                                <li class="short-info__item">
+                                    <span class="short-info__parametr">Age</span>
+                                    20
+                                </li>
+                                <li class="short-info__item">
+                                    <span class="short-info__parametr">From</span>
+                                    Ukraine, Dnipro
+                                </li>
+                            </ul>
+                            <button type="button" class="short-info__btn btn">Download CV</button>
+                        </div>
+                    </div>
+                    <div class="about__experience-numbers experience-numbers">
+                        <div class="experience-numbers__item">
+                            <div class="experience-numbers__num">
+                                3+
+                            </div>
+                            <div class="experience-numbers__caption">
+                                Months Experience
+                            </div>
+                        </div>
+                        <div class="experience-numbers__item">
+                            <div class="experience-numbers__num">
+                                3+
+                            </div>
+                            <div class="experience-numbers__caption">
+                                Projects
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="resume" class="main__section summary">
+                <div class="summary__container">
+                    <div class="summary__title-block title-block">
+                        <h2 class="title-block__title-back">Summary</h2>
+                        <p class="title-block__title-second">Resume</p>
+                    </div>
+                    <div class="summary__experience experience-block">
+                        <h3 class="experience-block__title content-title">My Edication</h3>
+                        <ul class="experience-block__list">
+                            <li class="experience-block__item item-experience">
+                                <span class="item-experience__time">2020-2024</span>
+                                <h4 class="item-experience__subject">Software for IoT Information Technology</h4>
+                                <p class="item-experience__where text-danger">National Technical University "Kharkiv Polytechnic Institute"</p>
+                                <div class="item-experience__caption">
+                                    <p>
+                                        Specialization in Internet of Things (IoT) relies on and implements modern trends in computer science and engineering based on cloud technologies (CT). The specialization prepares specialists to solve the following tasks:
+                                    </p>
+                                    <ul class="text__list">
+                                        <li class="text__item">
+                                            development of programs in object-oriented, logical, functional programming languages: C, C++, C#, Java;
+                                        </li>
+                                        <li class="text__item">
+                                            design of information systems using CASE tools;
+                                        </li>
+                                        <li class="text__item">
+                                            development of Internet applications based on HTML, CSS and others;
+                                        </li>
+                                        <li class="text__item">
+                                            design and development of IoT solutions, expert and intelligent systems.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="experience-block__item item-experience">
+                                <span class="item-experience__time">October-November 2022</span>
+                                <h4 class="item-experience__subject">Frontend video-courses</h4>
+                                <p class="item-experience__where text-danger">ITVDN</p>
+                                <div class="item-experience__caption">
+                                    <p>
+                                        I received a free ITVDN subscription (distributed to Ukrainians) for a month and completed the following courses:
+                                    </p>
+                                    <ul class="text__list">
+                                        <li class="text__item">
+                                            HTML5 & CSS3 Fundamentals;
+                                        </li>
+                                        <li class="text__item">
+                                            JavaScript Fundamentals;
+                                        </li>
+                                        <li class="text__item">
+                                            Basic Git;
+                                        </li>
+                                        <li class="text__item">
+                                            JavaScript Basics.
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        I still have several independent assignments for each of the courses, so the list will be updated over time.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="summary__skills skills">
+                        <h3 class="skills__title content-title">My Skills</h3>
+                        <ul class="skills__list">
+                            <li class="skills__item skill">
+                                <div class="skill__level">
+                                    <span class="skill__name">HTML/CSS</span>
+                                    <div class="skill__progress" title="80%">
+                                        <div class="skill__progress-bar" style="width: 80%;"></div>
+                                        <span class="skill__progress-num">80%</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skills__item skill">
+                                <div class="skill__level">
+                                    <span class="skill__name">JavaScript</span>
+                                    <div class="skill__progress" title="25%">
+                                        <div class="skill__progress-bar" style="width: 25%;"></div>
+                                        <span class="skill__progress-num">25%</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skills__item skill">
+                                <div class="skill__level">
+                                    <span class="skill__name">Bootstrap5</span>
+                                    <div class="skill__progress" title="10%">
+                                        <div class="skill__progress-bar" style="width: 10%;"></div>
+                                        <span class="skill__progress-num">10%</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skills__item skill">
+                                <div class="skill__level">
+                                    <span class="skill__name">Git/GitHub</span>
+                                    <div class="skill__progress" title="90%">
+                                        <div class="skill__progress-bar" style="width: 90%;"></div>
+                                        <span class="skill__progress-num">90%</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <span class="text-ps">"It should be noted that this is my assessment of my skills, so please don't take it as an absolute accuracy, as I am constantly developing and improving my skills every day."</span>
+                    <button type="button" class="summary__btn-download btn btn_gray">Download CV</button>
+                </div>
+            </section>
+            <section id="portfolio" class="main__section portfolio">
+                <div class="portfolio__container">
+                    <div class="portfolio__title-block title-block">
+                        <h2 class="title-block__title-back">Portfolio</h2>
+                        <p class="title-block__title-second">My Work</p>
+                    </div>
+
+                    <div class="portfolio__projects">
+                        <div data-popup-open="finsweet" class="project">
+                            <div class="project__image">
+                                <picture><source srcset="img/projects/finsweet.webp" type="image/webp"><img src="img/projects/finsweet.jpg" alt="Finsweet"></picture>
+                            </div>
+                            <div class="project__short-caption">
+                                <h3 class="project__title">Finsweet</h3>
+                            </div>
+                        </div>
+                        <div data-popup-open="travel-landing" class="project">
+                            <div class="project__image">
+                                <picture><source srcset="img/projects/travel-landing.webp" type="image/webp"><img src="img/projects/travel-landing.jpg" alt="Travel landing"></picture>
+                            </div>
+                            <div class="project__short-caption">
+                                <h3 class="project__title">Travel landing
+                            </div>
+                        </div>
+                        <div data-popup-open="wischool" class="project">
+                            <div class="project__image">
+                                <picture><source srcset="img/projects/wischool.webp" type="image/webp"><img src="img/projects/wischool.jpg" alt="WiSchool"></picture>
+                            </div>
+                            <div class="project__short-caption">
+                                <h3 class="project__title">WiSchool</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="main__section reviews">
+                <div class="reviews__container">
+                    <div class="reviews__title-block title-block">
+                        <h2 class="title-block__title-back">Reviews</h2>
+                        <p class="title-block__title-second">Client Speak</p>
+                    </div>
+                </div>
+            </section> -->
+            <section id="contact" class="main__section contact">
+                <div class="contact__container">
+                    <div class="contact__title-block title-block">
+                        <h2 class="title-block__title-back">Contact</h2>
+                        <p class="title-block__title-second">Send Us A Note</p>
+                    </div>
+                    <div class="contact__content">
+                        <form data-form-req id="sendContactForm" action="https://formspree.io/f/mgebkble" method="POST" class="contact__form form-send">
+                            <div class="form-send__row-inputs">
+                                <input data-required type="name" id="name" name="Name" class="form-send__input" placeholder="Name">
+                                <input data-required="email" id="email" name="Email" type="email" class="form-send__input" placeholder="Email">
+                            </div>
+                            <textarea data-required id="message" name="Message" class="form-send__textarea" placeholder="Tell us more about your need"></textarea>
+                            <button type="submit" class="form-send__btn btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <button id="go-up" class="btn-up _icon-arrow"></button>
+        </main>
+        <footer></footer>
+        <div data-popup="finsweet" data-popup-close="finsweet" class="popup project-popup">
+    <div class="popup__wrapper project-popup__wrapper">
+        <h2 class="project-popup__main-title">Finsweet</h2>
+        <div class="project-popup__content">
+            <div class="project-popup__image-block">
+                <picture><source srcset="img/projects/finsweet.webp" type="image/webp"><img src="img/projects/finsweet.jpg" alt="finsweet"></picture>
+            </div>
+            <div class="project-popup__infomation">
+                <div class="project-popup__info">
+                    <span class="project-popup__title">Project Info:</span>
+                    <div class="project-popup__caption text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum itaque dolorem id in laboriosam nam dolor doloribus ex ut, reprehenderit vel impedit, adipisci deserunt cum?
+                        </p>
+                    </div>
+                </div>
+                <div class="project-popup__details">
+                    <span class="project-popup__title">Project Details:</span>
+                    <ul class="short-info__list">
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Client</span>
+                            Nobody
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Technologies</span>
+                            HTML5, CSS3, JavaScript
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Industry</span>
+                            Frontend Development
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Date</span>
+                            Dec 29, 2022
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">URL demo</span>
+                            <a href="https://yevheniy-hliebov.github.io/Finsweet/" class="link-primary">https://yevheniy-hliebov.github.io/Finsweet/</a>
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">URL design</span>
+                            <a href="https://www.figma.com/file/jnSZz1FQ2kFMncTXVXR7A7/Client-First-Template-12---Blog-(Community)?node-id=533%3A3125&t=HT93IzKhmei8Ron0-1" class="link-primary">www.figma.com/...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button data-popup-close="finsweet" type="button" class="close-btn"></button>
+    </div>
+</div>
+<div data-popup="travel-landing" data-popup-close="travel-landing" class="popup project-popup">
+    <div class="popup__wrapper project-popup__wrapper">
+        <h2 class="project-popup__main-title">Travel Landing</h2>
+        <div class="project-popup__content">
+            <div class="project-popup__image-block">
+                <picture><source srcset="img/projects/travel-landing.webp" type="image/webp"><img src="img/projects/travel-landing.jpg" alt="Travel Landing"></picture>
+            </div>
+            <div class="project-popup__infomation">
+                <div class="project-popup__info">
+                    <span class="project-popup__title">Project Info:</span>
+                    <div class="project-popup__caption text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum itaque dolorem id in laboriosam nam dolor doloribus ex ut, reprehenderit vel impedit, adipisci deserunt cum?
+                        </p>
+                    </div>
+                </div>
+                <div class="project-popup__details">
+                    <span class="project-popup__title">Project Details:</span>
+                    <ul class="short-info__list">
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Client</span>
+                            Nobody
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Technologies</span>
+                            HTML5, CSS3, JavaScript
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Industry</span>
+                            Frontend Development
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Date</span>
+                            Jan 15, 2023
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">URL demo</span>
+                            <a href="https://yevheniy-hliebov.github.io/Travel-Landing/" class="link-primary">https://yevheniy-hliebov.github.io/Travel-Landing/</a>
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">URL design</span>
+                            <a href="https://www.figma.com/file/jnSZz1FQ2kFMncTXVXR7A7/Client-First-Template-12---Blog-(Community)?node-id=533%3A3125&t=HT93IzKhmei8Ron0-1" class="link-primary">www.figma.com/...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button data-popup-close="travel-landing" type="button" class="close-btn"></button>
+    </div>
+</div>
+<div data-popup="wischool" data-popup-close="wischool" class="popup project-popup">
+    <div class="popup__wrapper project-popup__wrapper">
+        <h2 class="project-popup__main-title">WiSchool</h2>
+        <div class="project-popup__content">
+            <div class="project-popup__image-block">
+                <picture><source srcset="img/projects/wischool.webp" type="image/webp"><img src="img/projects/wischool.jpg" alt="finsweet"></picture>
+            </div>
+            <div class="project-popup__infomation">
+                <div class="project-popup__info">
+                    <span class="project-popup__title">Project Info:</span>
+                    <div class="project-popup__caption text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum itaque dolorem id in laboriosam nam dolor doloribus ex ut, reprehenderit vel impedit, adipisci deserunt cum?
+                        </p>
+                    </div>
+                </div>
+                <div class="project-popup__details">
+                    <span class="project-popup__title">Project Details:</span>
+                    <ul class="short-info__list">
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Client</span>
+                            Nobody
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Technologies</span>
+                            HTML5, CSS3, JavaScript
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Industry</span>
+                            Frontend Development
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Date</span>
+                            Feb 14, 2023
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">URL demo</span>
+                            <a href="https://yevheniy-hliebov.github.io/WiSchool/" class="link-primary">https://yevheniy-hliebov.github.io/WiSchool/</a>
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">URL design</span>
+                            <a href="https://www.figma.com/file/XCRPkpmS46ZSygsBaewFj4/WiSchool?node-id=0%3A1&t=1uqaUvuMcV2rwOJT-1" class="link-primary">www.figma.com/...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button data-popup-close="wischool" type="button" class="close-btn"></button>
+    </div>
+</div>
+
+        <script src="js/app.min.js?_v=20230224200333"></script>
+    </body>
+</html>
+</html>
