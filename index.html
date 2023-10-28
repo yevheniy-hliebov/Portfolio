@@ -64,7 +64,10 @@
                                     I'm 20 years old. After graduating from high school in 2020, I enrolled in the National Technical University "Kharkiv Polytechnic Institute" for Applied Computer Engineering at the Department of Internet of Things.
                                 </p>
                                 <p>
-                                    During my first year, I studied basic programming with the C language and various algorithms. In the second year, we studied object-oriented programming with C# and various technologies. In the third year, during the first semester, I became very interested in web development. So during my studies, I found a website offering free courses for Ukrainians with a one-month subscription and started to learn web development in-depth, both on the website and at the university. Currently, I am only studying frontend, as we will be studying cross-platform and server-side programming in the second semester.
+                                    During my first year, I studied basic programming with the C language and various algorithms. In the second year, we studied object-oriented programming with C# and various technologies. In the third year, during the first semester, I became very interested in web development. So during my studies, I found a website offering free courses for Ukrainians with a one-month subscription and started to learn web development in-depth, both on the website and at the university. 
+                                </p>
+                                <p>
+                                    At the moment, I have basic programming knowledge for frontend, understand how to use APIs, and how the server-side works. I am actively learning the React.js library.
                                 </p>
                                 <p>
                                     I enjoy developing myself and learning new things to become even better than I was before.
@@ -92,6 +95,10 @@
                                     <span class="short-info__parametr">From</span>
                                     Ukraine, Dnipro
                                 </li>
+                                <li class="short-info__item">
+                                    <span class="short-info__parametr">Upwork</span>
+                                    <a href="https://www.upwork.com/freelancers/~0158bc1104dad1070b" class="link-primary">upwork.com/freelancers/~0158bc1104dad1070b</a>
+                                </li>
                             </ul>
                             <!-- <button type="button" class="short-info__btn btn none">Download CV</button> -->
                         </div>
@@ -99,7 +106,7 @@
                     <div class="about__experience-numbers experience-numbers">
                         <div class="experience-numbers__item">
                             <div class="experience-numbers__num">
-                                3+
+                                9+
                             </div>
                             <div class="experience-numbers__caption">
                                 Months Experience
@@ -107,7 +114,7 @@
                         </div>
                         <div class="experience-numbers__item">
                             <div class="experience-numbers__num">
-                                3+
+                                8+
                             </div>
                             <div class="experience-numbers__caption">
                                 Projects
@@ -182,40 +189,19 @@
                         <h3 class="skills__title content-title">My Skills</h3>
                         <ul class="skills__list">
                             <li class="skills__item skill">
-                                <div class="skill__level">
-                                    <span class="skill__name">HTML/CSS</span>
-                                    <div class="skill__progress" title="80%">
-                                        <div class="skill__progress-bar" style="width: 80%;"></div>
-                                        <span class="skill__progress-num">80%</span>
-                                    </div>
-                                </div>
+                                <span class="skill__name">HTML/CSS</span>
                             </li>
                             <li class="skills__item skill">
-                                <div class="skill__level">
-                                    <span class="skill__name">JavaScript</span>
-                                    <div class="skill__progress" title="25%">
-                                        <div class="skill__progress-bar" style="width: 25%;"></div>
-                                        <span class="skill__progress-num">25%</span>
-                                    </div>
-                                </div>
+                                <span class="skill__name">JavaScript</span>
                             </li>
                             <li class="skills__item skill">
-                                <div class="skill__level">
-                                    <span class="skill__name">Bootstrap5</span>
-                                    <div class="skill__progress" title="10%">
-                                        <div class="skill__progress-bar" style="width: 10%;"></div>
-                                        <span class="skill__progress-num">10%</span>
-                                    </div>
-                                </div>
+                                <span class="skill__name">Git/GitHub</span>
                             </li>
                             <li class="skills__item skill">
-                                <div class="skill__level">
-                                    <span class="skill__name">Git/GitHub</span>
-                                    <div class="skill__progress" title="90%">
-                                        <div class="skill__progress-bar" style="width: 90%;"></div>
-                                        <span class="skill__progress-num">90%</span>
-                                    </div>
-                                </div>
+                                <span class="skill__name">Gulp/Webpacks/npm</span>
+                            </li>
+                            <li class="skills__item skill">
+                                <span class="skill__name">React.js (beginner)</span>
                             </li>
                         </ul>
                     </div>
@@ -231,6 +217,22 @@
                     </div>
 
                     <div class="portfolio__projects">
+                        <div data-popup-open="weathertrack" class="project">
+                            <div class="project__image">
+                                <img src="img/projects/weathertrack.png" alt="weathertrack">
+                            </div>
+                            <div class="project__short-caption">
+                                <h3 class="project__title">WeatherTrack</h3>
+                            </div>
+                        </div>
+                        <div data-popup-open="sensesconcept" class="project">
+                            <div class="project__image">
+                                <img src="img/projects/sensesconcept.cz-cover.png" alt="sensesconcept">
+                            </div>
+                            <div class="project__short-caption">
+                                <h3 class="project__title">Senses Concept</h3>
+                            </div>
+                        </div>
                         <div data-popup-open="rorompok" class="project">
                             <div class="project__image">
                                 <picture><source srcset="img/projects/rorompok.webp" type="image/webp"><img src="img/projects/rorompok.jpg" alt="Rorompok"></picture>
@@ -488,6 +490,100 @@
                         <li class="short-info__item">
                             <span class="short-info__parametr">URL design</span>
                             <a href="https://www.figma.com/file/jnSZz1FQ2kFMncTXVXR7A7/Client-First-Template-12---Blog-(Community)?node-id=533%3A3125&t=HT93IzKhmei8Ron0-1" class="link-primary">www.figma.com/...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button data-popup-close="rorompok" type="button" class="close-btn"></button>
+    </div>
+</div>
+<div data-popup="weathertrack" data-popup-close="weathertrack" class="popup project-popup">
+    <div class="popup__wrapper project-popup__wrapper">
+        <h2 class="project-popup__main-title">WeatherTrack</h2>
+        <div class="project-popup__content">
+            <div class="project-popup__image-block">
+                <img src="img/projects/weathertrack.png" alt="weathertrack">
+            </div>
+            <div class="project-popup__infomation">
+                <div class="project-popup__info">
+                    <span class="project-popup__title">Project Info:</span>
+                    <div class="project-popup__caption text">
+                        <p>
+                            WeatherTrack is a website that I developed to expand my portfolio and highlight my web development skills. 
+                            The project emphasizes my proficiency in technologies such as React.js, HTML, CSS (utilizing the SCSS preprocessor), JavaScript, and API integration through sample requests. 
+                            <br><br><em>P.S. The website was created for the purpose of adding to my own portfolio</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="project-popup__details">
+                    <span class="project-popup__title">Project Details:</span>
+                    <ul class="short-info__list">
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Client</span>
+                            Nobody
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Technologies</span>
+                            HTML5, CSS3, JavaScript, React.js, OpenWeatherMap API
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Industry</span>
+                            Frontend Development
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Date</span>
+                            August 14, 2023
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">URL demo</span>
+                            <a href="https://yevheniy-hliebov.github.io/WeatherTrack/" class="link-primary">https://yevheniy-hliebov.github.io/WeatherTrack/</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button data-popup-close="rorompok" type="button" class="close-btn"></button>
+    </div>
+</div>
+<div data-popup="sensesconcept" data-popup-close="sensesconcept" class="popup project-popup">
+    <div class="popup__wrapper project-popup__wrapper">
+        <h2 class="project-popup__main-title">Senses Concept</h2>
+        <div class="project-popup__content">
+            <div class="project-popup__image-block">
+                <img src="img/projects/sensesconcept.cz-cover.png" alt="sensesconcept">
+            </div>
+            <div class="project-popup__infomation">
+                <div class="project-popup__info">
+                    <span class="project-popup__title">Project Info:</span>
+                    <div class="project-popup__caption text">
+                        <p>
+                            The SenseConcept project is my first commercial project with a customer I found on Upwork. The project is developed using the latest technologies such as HTML, CSS, JavaScript and PHPMailer for sending data from forms.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-popup__details">
+                    <span class="project-popup__title">Project Details:</span>
+                    <ul class="short-info__list">
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Client</span>
+                            Nobody
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Technologies</span>
+                            HTML5, CSS3, JavaScript, PHPMailer
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Industry</span>
+                            Frontend Development
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Date</span>
+                            April 19, 2023
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">URL site</span>
+                            <a href="https://sensesconcept.cz/" class="link-primary">https://sensesconcept.cz/</a>
                         </li>
                     </ul>
                 </div>
