@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css?_v=20230321155643">
-    
 
     <title>Portfolio - Yevhenii Hliebov</title>
 </head>
@@ -210,6 +209,14 @@
                     </div>
 
                     <div class="portfolio__projects">
+                        <div data-popup-open="projectifyweb" class="project">
+                            <div class="project__image">
+                                <img src="img/projects/projectifyweb.png" alt="projectifyweb">
+                            </div>
+                            <div class="project__short-caption">
+                                <h3 class="project__title">ProjectifyWeb</h3>
+                            </div>
+                        </div>
                         <div data-popup-open="weathertrack" class="project">
                             <div class="project__image">
                                 <img src="img/projects/weathertrack.png" alt="weathertrack">
@@ -583,6 +590,53 @@
             </div>
         </div>
         <button data-popup-close="sensesconcept" type="button" class="close-btn"></button>
+    </div>
+</div>
+<div data-popup="projectifyweb" data-popup-close="projectifyweb" class="popup project-popup">
+    <div class="popup__wrapper project-popup__wrapper">
+        <h2 class="project-popup__main-title">ProjectifyWeb</h2>
+        <div class="project-popup__content">
+            <div class="project-popup__image-block">
+                <img src="img/projects/projectifyweb.png" alt="projectifyweb">
+            </div>
+            <div class="project-popup__infomation">
+                <div class="project-popup__info">
+                    <span class="project-popup__title">Project Info:</span>
+                    <div class="project-popup__caption text">
+                        <p>
+                            Web application development project, showcasing my skills in creating a project management system – ProjectifyWeb. In this project, I designed and implemented an application that empowers users to seamlessly create, edit, and delete both projects and tasks within those projects. 
+                            <br><br><em>P.S. The website was created for the purpose of adding to my own portfolio</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="project-popup__details">
+                    <span class="project-popup__title">Project Details:</span>
+                    <ul class="short-info__list">
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Client</span>
+                            Nobody
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Technologies</span>
+                            React.js, TailwindCSS, Nest.js/Express.js, MongoDB, and JWT
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Industry</span>
+                            Fullstack development
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">Date</span>
+                            January 10, 2024
+                        </li>
+                        <li class="short-info__item">
+                            <span class="short-info__parametr">GitHub project</span>
+                            <a href="https://github.com/yevheniy-hliebov/ProjectifyWeb" class="link-primary">github.com/yevheniy-hliebov/ProjectifyWeb</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button data-popup-close="projectifyweb" type="button" class="close-btn"></button>
     </div>
 </div>
 
